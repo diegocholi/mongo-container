@@ -37,3 +37,8 @@
 Ao acessar o endereço http://localhost:8081 via browser aparecerá inicialmente uma janela solicitando as credenciais para uso do mongo-express.
 
 OBS: Caso o express não subir junto com o mongo, executar novamente o container do express após a execução do contaienr do mongo.
+
+## URI MONGO
+
+    mongodb://user:password@server:port/db_name?authSource=admin
+
